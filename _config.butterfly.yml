@@ -290,8 +290,8 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: ldaJebfIPJiuP03kuNor6Li2-gzGzoHsz
-  appKey: aFkYvmY9KsvRXOukJmjy9eei
+  appId: qACG5Nz1E2Fz1XWayVEQKvn8-MdYXbMMI
+  appKey: R60Df3yIYznHQ9mQfBJg6Mni
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
@@ -656,15 +656,15 @@ runtimeshow:
   enable: true
   publish_date: 2020/10/31 00:00:00 
 
-# Aside widget - Newest Comments
+# Aside widget - Newest Comments 
 newest_comments:
   enable: true
   limit: 6
   avatar: true
   leancloud:
     enable: true
-    appId: ldaJebfIPJiuP03kuNor6Li2-gzGzoHsz
-    appKey: aFkYvmY9KsvRXOukJmjy9eei
+    appId: qACG5Nz1E2Fz1XWayVEQKvn8-MdYXbMMI
+    appKey: R60Df3yIYznHQ9mQfBJg6Mni
     serverURL:
     default_avatar: # mp/identicon/monsterid/wavatar/retro/robohash/blank
   github_issues:
@@ -748,10 +748,10 @@ note:
 # Artitalk
 # see https://artitalk.js.org/
 artitalk:
-  appId: ldaJebfIPJiuP03kuNor6Li2-gzGzoHsz
-  appKey: aFkYvmY9KsvRXOukJmjy9eei
+  appId: qACG5Nz1E2Fz1XWayVEQKvn8-MdYXbMMI
+  appKey: R60Df3yIYznHQ9mQfBJg6Mni
   option:
-    serverURL: http://blog.leezijin.com
+    serverURL: blog.leezijin.com
     lang: zh
 
 # Pjax [Beta]
