@@ -290,8 +290,8 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: qACG5Nz1E2Fz1XWayVEQKvn8-MdYXbMMI
-  appKey: R60Df3yIYznHQ9mQfBJg6Mni
+  appId: ldaJebfIPJiuP03kuNor6Li2-gzGzoHsz
+  appKey: aFkYvmY9KsvRXOukJmjy9eei
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
@@ -663,9 +663,9 @@ newest_comments:
   avatar: true
   leancloud:
     enable: true
-    appId: qACG5Nz1E2Fz1XWayVEQKvn8-MdYXbMMI
-    appKey: R60Df3yIYznHQ9mQfBJg6Mni
-    serverURL: http://blog.leezijin.com/ 
+    appId: ldaJebfIPJiuP03kuNor6Li2-gzGzoHsz
+    appKey: aFkYvmY9KsvRXOukJmjy9eei
+    serverURL:
     default_avatar: # mp/identicon/monsterid/wavatar/retro/robohash/blank
   github_issues:
     enable: false
@@ -748,8 +748,8 @@ note:
 # Artitalk
 # see https://artitalk.js.org/
 artitalk:
-  appId: qACG5Nz1E2Fz1XWayVEQKvn8-MdYXbMMI
-  appKey: R60Df3yIYznHQ9mQfBJg6Mni
+  appId: ldaJebfIPJiuP03kuNor6Li2-gzGzoHsz
+  appKey: aFkYvmY9KsvRXOukJmjy9eei
   option:
     serverURL: http://blog.leezijin.com
     lang: zh
