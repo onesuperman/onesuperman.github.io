@@ -25,7 +25,7 @@ hide_sidebar_menu_child: false
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -43,7 +43,7 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-qq: https://github.com/onesuperman || QQ
+  fab fa-qq: https://qm.qq.com/cgi-bin/qm/qr?k=bgHl-LHOLsaJLWpc7rC1tuMJ9-tNo2iY&noverify=0 || QQ
   fas fa-envelope: mailto:894610714@qq.com || Email
 
 # search (搜索)
@@ -243,7 +243,8 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
   use:
-    - Valine
+    - Twikoo
+  # - Valine
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -326,7 +327,7 @@ facebook_comments:
 
 # Twikoo
 # https://github.com/imaegoo/twikoo
-twikoo:
+twikoo: leezijin-6grtq3fjceb1b01b
 
 # Chat Services
 # --------------------------------------
@@ -353,8 +354,8 @@ tidio:
 # daovoice
 # http://daovoice.io/
 daovoice:
-  enable: false
-  app_id:
+  enable: true
+  app_id: 8ff87b96
 
 # gitter
 # https://gitter.im/
@@ -658,7 +659,7 @@ runtimeshow:
 
 # Aside widget - Newest Comments 
 newest_comments:
-  enable: true
+  enable: false
   limit: 6
   avatar: true
   leancloud:
