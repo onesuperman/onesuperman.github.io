@@ -352,7 +352,7 @@ tidio:
   public_key:
 
 # daovoice
-# http://daovoice.io/
+# http://daovoice.io/ 在线聊天
 daovoice:
   enable: true
   app_id: 8ff87b96
@@ -666,7 +666,11 @@ newest_comments:
     enable: true
     appId: qACG5Nz1E2Fz1XWayVEQKvn8-MdYXbMMI
     appKey: R60Df3yIYznHQ9mQfBJg6Mni
+<<<<<<< HEAD
     serverURL:
+=======
+    serverURL: 
+>>>>>>> 6f4430f861d21111888d009af29c2b1084880242
     default_avatar: # mp/identicon/monsterid/wavatar/retro/robohash/blank
   github_issues:
     enable: false
