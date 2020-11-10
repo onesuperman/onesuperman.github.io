@@ -1,9 +1,10 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
-categories:
-keywords:
-description:
-comments:true
+tags: 
+categories: 
+keywords: 
+description: 
+comments: true
+cover: 
 ---

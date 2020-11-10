@@ -496,16 +496,16 @@ enter_transitions: true
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
+  click_to_change: true
   mobile: false
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: false
+  enable: true
   mobile: false
 
 # canvas_nest
@@ -666,11 +666,7 @@ newest_comments:
     enable: true
     appId: qACG5Nz1E2Fz1XWayVEQKvn8-MdYXbMMI
     appKey: R60Df3yIYznHQ9mQfBJg6Mni
-<<<<<<< HEAD
     serverURL:
-=======
-    serverURL: 
->>>>>>> 6f4430f861d21111888d009af29c2b1084880242
     default_avatar: # mp/identicon/monsterid/wavatar/retro/robohash/blank
   github_issues:
     enable: false
