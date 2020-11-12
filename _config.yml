@@ -109,3 +109,7 @@ deploy:
 
 # CNZZ count
 cnzz_siteid: 1279397347
+
+aplayer:
+  asset_inject: false
+  meting: true
