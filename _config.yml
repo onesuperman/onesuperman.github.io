@@ -104,10 +104,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  # repo: https://github.com/onesuperman/onesuperman.github.io.git
-  repository:
-    github: https://github.com/onesuperman/onesuperman.github.io.git
-    coding: https://e.coding.net/cloudbase-894610714/hexo/onesuperman.git
+  repo: https://github.com/onesuperman/onesuperman.github.io.git
   branch: master
 
 # CNZZ count
