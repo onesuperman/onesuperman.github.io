@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://blog.leezijin.com
+url: https://blog.leezijin.com
 root: /
 permalink: :year:month:day/:title/
 permalink_defaults:
@@ -103,9 +103,11 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+- type: git
   repo: https://github.com/onesuperman/onesuperman.github.io.git
   branch: master
+- type: baidu_url_submitter
+  
 
 # CNZZ count
 cnzz_siteid: 1279397347
@@ -114,25 +116,20 @@ aplayer:
   asset_inject: false
   meting: true
   
-# hexo-neat
-# 博文压缩
-neat_enable: false
-# 压缩html
-neat_html:
-  enable: true
-  exclude:
-# 压缩css  
-neat_css:
-  enable: true
-  exclude:
-    - '**/*.min.css'
-# 压缩js
-neat_js:
-  enable: true
-  mangle: true
-  output:
-  compress:
-  exclude:
-    - '**/*.min.js'
-    - '**/jquery.fancybox.pack.js'
-    - '**/index.js'  
+
+# seo 优化    
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+  
+
+# 百度搜索 主动推送
+baidu_url_submit:
+  count: 100               # 提交最新的多少个链接
+  host: https://blog.leezijin.com    # 在百度站长平台中添加的域名
+  token: dVJJeZI3uz6Lnqwl      # 秘钥
+  path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
+
+
